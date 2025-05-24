@@ -1,0 +1,29 @@
+{
+    "name": "haiju/signature",
+    "description": "signature",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Haiju\\Signature\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Haiju\\Signature\\ServiceProvider"
+            ]
+        }
+    },
+    "authors": [
+        {
+            "name": "代拓",
+            "email": "386968355@qq.com"
+        }
+    ],
+    "require": {
+        "php": "^8.2"
+    },
+    "require-dev": {
+        "laravel/framework": "^11.0"
+    }
+}
